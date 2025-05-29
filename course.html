@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Berkshire+Swash&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Jersey+15&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/Mashujaa Uni LOGO.png">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+     <h1>Our Courses</h1>
+    </section>
+
+    <!-- Our courses -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolorum corrupti asperiores magnam.</p>
+        <div class="row">
+            <div class="course-col">
+               <h3>Intermediate</h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia praesentium quam eveniet iusto temporibus perspiciatis.</p>
+            </div>
+    
+            <div class="course-col">
+               <h3>Under Graduate</h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia praesentium quam eveniet iusto temporibus perspiciatis.</p>
+            </div>
+
+            <div class="course-col">
+               <h3>Post Graduate</h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia praesentium quam eveniet iusto temporibus perspiciatis.</p>
+            </div>
+        </div>
+
+
+    </section> 
+     <!-- facilities -->
+     <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia modi odio numquam repellendus corrupti quod itaque illo obcaecati.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/istockphoto-160768331-612x612.jpg" alt="">
+                <h3>World class library</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/istockphoto-499331469-612x612.webp" alt="">
+                <h3>Large Play grounds & resources</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/istockphoto-1869751294-612x612.jpg" alt="">
+                <h3>Tasty & Healthy food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+      </section>   
+      
+ 
+      <!-- footer -->
+       <section class="footer">
+        <h4>About US</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde magnam modi saepe, sint numquam <br> eius nulla alias voluptas, facilis ab dolores nostrum error esse impedit molestiae eos earum ullam ea.</p>
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+
+        </div>
+        <p>This is a parody page made by Edwin with  <i class="fas fa-heart"></i>.
+            No such University exists. </p>
+       </section>
+    
+     <!-- JavaScript for toggle me -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        
+    </script>
+
+
+
+</body>
+</html>
